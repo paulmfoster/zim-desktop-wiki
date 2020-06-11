@@ -39,11 +39,11 @@ def html_encode(text):
 class Dumper(DumperClass):
 
 	TAGS = {
-		EMPHASIS: ('<i>', '</i>'),
-		STRONG: ('<b>', '</b>'),
+		EMPHASIS: ('<em>', '</em>'),
+		STRONG: ('<strong>', '</strong>'),
 		MARK: ('<u>', '</u>'),
-		STRIKE: ('<s>', '</s>'),
-		VERBATIM: ('<tt>', '</tt>'),
+		STRIKE: ('<strike>', '</strike>'),
+		VERBATIM: ('<code>', '</code>'),
 		TAG: ('<span class="zim-tag">', '</span>'),
 		SUBSCRIPT: ('<sub>', '</sub>'),
 		SUPERSCRIPT: ('<sup>', '</sup>'),
